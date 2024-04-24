@@ -17,4 +17,12 @@ Queue data structures are commonly used in various scenarios where items or task
 - isEmpty: is the queue empty? It checks it
 - isFull: is the queue full? It checks it
 
+## Methods that can be used for Queues
+1. add() - adds an element to the queue
+2. remove() - removes an element into the queue
+3.  offer() - inserts an element into the queue and if successful will return true 
+4. peek() - returns the head of the queue; if empty will return null
+5. poll() - removes and returns the head of the queue; if empty will return null
+6. element() - returns the head of the queue; if empty will throw an exception
+7. peek() - returns the head of the queue; if empty will return null
 
